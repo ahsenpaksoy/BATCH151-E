@@ -1,4 +1,4 @@
-package day03typecastingwrapperscanner;
+package xx;
 
 import java.util.Scanner;
 

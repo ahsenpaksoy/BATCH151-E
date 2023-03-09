@@ -1,8 +1,8 @@
-package day04ifstatement;
+package myjava.day001;
 
 import java.util.Scanner;
 
-public class Scanner02 {
+public class Scanner02_ {
 
 	public static void main(String[] args) {
 	    
