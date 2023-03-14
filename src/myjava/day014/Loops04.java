@@ -20,15 +20,16 @@ public class Loops04 {
 		do {
 			if(counter==3) {
 				System.out.println("Your account was blocked");
-				break;	
+				break;
 			}
-			
 			System.out.println("Please enter your username");
 			String userName = input.next();
+			
 			System.out.println("Please enter your password");
 			String passWord = input.next();
-		
+			
 			counter++;
+			
 			if(userName.equals(validUserName) && passWord.equals(validPassWord)) {
 				System.out.println("Welcome to your account");
 				break;
@@ -36,8 +37,10 @@ public class Loops04 {
 				System.out.println("Invalid username or password");
 				System.out.println(3-counter + " right left");
 			}
-			
+				
 		}while(true);
+
+		
 		
 		
 		
