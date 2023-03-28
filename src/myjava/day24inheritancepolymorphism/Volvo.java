@@ -8,7 +8,7 @@ public class Volvo extends Car{
 	
 	@Override
 	public void move() { ////Bu bir annotation'dir. @Override annotation'i Override kurallarini kontrol eder.
-		super.move();
+		//super.move(); //parent'dakini kullanmak icin. parent'dakini kullan sonra ek yap.Ikisini beraber gormek icin
 		System.out.println("Volvo moves...");
 	}
 }

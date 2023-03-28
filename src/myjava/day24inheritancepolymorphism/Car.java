@@ -54,6 +54,8 @@ public class Car {
 
 }
 
+		//this() ve super() constructor'larda kullanilir.Overriding'de method'un icinde de kullanilir.
+
 
 
 
